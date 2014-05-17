@@ -1,4 +1,6 @@
-<h1>Listing logins</h1>
+
+
+  <h1>Listing logins</h1>
 
 <table>
   <thead>
@@ -21,9 +23,10 @@
         <td><%= link_to 'Destroy', login, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-  </tbody>
+ </tbody>
 </table>
 
 <br>
+<%= link_to 'Task', tasks_path %>
 
 <%= link_to 'New Login', new_login_path %>
